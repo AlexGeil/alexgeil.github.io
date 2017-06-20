@@ -34,19 +34,6 @@
 		-ms-animation: none !important;
 		animation: none !important;
 	}
-	.navbar-brand > img {
-		float: left;
-		padding-left: 35px;
-	}
-	.phone_top {
-		padding-left: 80px;
-	}
-	.navbar-collapse {
-		padding-top: 100px;
-	}
-	.navbar-collapse.in {
-		overflow-y: hidden;
-	}
 
 }
 

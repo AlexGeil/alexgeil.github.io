@@ -1,4 +1,11 @@
-$(function() {
+$(document).ready(function() {
+
+	//Цели для Яндекс.Метрики и Google Analytics
+	$(".count_element").on("click", (function() {
+		ga("send", "event", "goal", "goal");
+		yaCounterXXXXXXXX.reachGoal("goal");
+		return true;
+	}));
 
 	//SVG Fallback
 	if(!Modernizr.svg) {
@@ -7,19 +14,18 @@ $(function() {
 		});
 	};
 
-	//E-mail Ajax Send
-	//Documentation & Example: https://github.com/agragregra/uniMail
-	$("form").submit(function() { //Change
-		var th = $(this);
+	//Аякс отправка форм
+	//Документация: http://api.jquery.com/jquery.ajax/
+	$("#form").submit(function() {
 		$.ajax({
 			type: "POST",
-			url: "mail.php", //Change
-			data: th.serialize()
+			url: "mail.php",
+			data: $(this).serialize()
 		}).done(function() {
-			alert("Thank you!");
+			alert("Спасибо за заявку!");
 			setTimeout(function() {
-				// Done Functions
-				th.trigger("reset");
+				
+				$("#form").trigger("reset");
 			}, 1000);
 		});
 		return false;
