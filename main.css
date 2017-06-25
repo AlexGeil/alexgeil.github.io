@@ -23,3 +23,12 @@ body input:required:valid,
 body textarea:required:valid {
 	
 }
+.s_main{
+	margin-top: 20px;
+}
+.main_side .box{
+	margin-top: 20px;
+}
+
+.box_mnu .panel-heading {
+	border-bottom: none;
