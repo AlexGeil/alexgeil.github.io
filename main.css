@@ -32,3 +32,15 @@ body textarea:required:valid {
 
 .box_mnu .panel-heading {
 	border-bottom: none;
+}
+.list-group {
+	font-family: "OpenSansBold", sans-serif;
+}
+.list-group {
+	margin-left: 10px;
+}
+.list-group-item {
+	
+	background-color: rgba(245, 245, 245, 0.84);
+	
+}

@@ -7,17 +7,17 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-.nav {
-    padding-left: 10px;
-}
-.nav>li>a {
-    padding: 15px 10px;
-}
-.phone_top {
+	.nav {
+		padding-left: 10px;
+	}
+	.nav>li>a {
+		padding: 15px 10px;
+	}
+	.phone_top {
 
-    right: 0;
-  
-}
+		right: 0;
+		
+	}
 }
 
 /* Small Devices, Tablets */
@@ -59,8 +59,8 @@
 		overflow-y: hidden;
 	}
 	.nav>li>a {
-    padding: 10px 10px;
-}
+		padding: 10px 10px;
+	}
 
 
 }
@@ -93,19 +93,21 @@
 	.navbar-collapse {
 		padding-top: 0;
 	}
-.phone_top {
-    padding-left: 0;
-    top: 12px;
-}
-.nav>li>a {
-    padding: 15px 10px;
-}
+	.phone_top {
+		padding-left: 0;
+		top: 12px;
+	}
+	.nav>li>a {
+		padding: 15px 10px;
+	}
 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+	.nav>li>a {
+		padding: 15px 20px;
+	}
 }
 
 /* Large Devices, Wide Screens */
