@@ -16,8 +16,8 @@
 	.phone_top {
 
 		right: 0;
-		
 	}
+	
 }
 
 /* Small Devices, Tablets */
@@ -61,12 +61,21 @@
 	.nav>li>a {
 		padding: 10px 10px;
 	}
-
+	.list-group .list-group-item {
+		text-align: center;
+	}
+.box{
+		margin-left: 0x;
+	}
 
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+
+
+
+
 
 }
 

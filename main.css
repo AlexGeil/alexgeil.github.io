@@ -39,8 +39,22 @@ body textarea:required:valid {
 .list-group {
 	margin-left: 10px;
 }
+
 .list-group-item {
 	
-	background-color: rgba(245, 245, 245, 0.84);
+	background-color: rgba(228, 228, 228, 0.8);
 	
+}
+a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, button.list-group-item:focus {
+
+	border: none;
+}
+.list-group-item {
+	border: none;
+}
+.content h1{
+	border-bottom: #EFEFEF 1px solid;
+	margin-top: 5px;
+	padding-bottom: 10px;
+
 }
