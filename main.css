@@ -32,7 +32,7 @@ body textarea:required:valid {
 
 .box_mnu .panel-heading {
 	border-bottom: none;
-}
+};
 .list-group {
 	font-family: "OpenSansBold", sans-serif;
 }
@@ -57,4 +57,7 @@ a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, 
 	margin-top: 5px;
 	padding-bottom: 10px;
 
+}
+.s_main .row{
+	margin-right: 0;
 }
