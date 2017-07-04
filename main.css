@@ -69,7 +69,7 @@ a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, 
 	padding: 15px;
 }
 
-.panel-default {
+.s_main .panel-default {
 	margin-bottom: 6px;
 	margin-left: 10px;
 	border: none;
