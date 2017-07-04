@@ -61,3 +61,17 @@ a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, 
 .s_main .row{
 	margin-right: 0;
 }
+.leftside_img img {
+    position: relative;
+       width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    padding: 15px;
+  }
+
+ .panel-default {
+ margin-bottom: 6px;
+    margin-left: 10px;
+    border: none;
+    background-color: rgba(228, 228, 228, 0.8);
+}
