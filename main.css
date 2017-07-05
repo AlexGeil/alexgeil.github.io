@@ -80,10 +80,12 @@ a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, 
 	padding-top: 30px;
 }
 .main_footer{
-	padding: 15px;
+	padding: 15px 30px;
 }
-.slogan{
+.slogan {
 	text-align: center;
 	display: block;
-	font-family: Exo2Bold;
+	font-family: "Exo2Bold", OpenSansBold;
+	color: #555;
+	font-size: 22px;
 }
