@@ -76,7 +76,7 @@ a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, 
 	background-color: rgba(228, 228, 228, 0.8);
 }
 .slogan_bottom {
-	border-top: #EFEFEF 2px solid;
+	border-top: #d6d6d6 2px solid;
 	padding-top: 30px;
 }
 .main_footer{
@@ -88,4 +88,7 @@ a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, 
 	font-family: "Exo2Bold", OpenSansBold;
 	color: #555;
 	font-size: 22px;
+}
+.phone_bottom{
+	padding-left: 25px;
 }
