@@ -2,6 +2,9 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	h1, .h1 {
+    font-size: 20px;
+}
 
 }
 
@@ -79,6 +82,17 @@
 	article{
 		margin: 20px;
 	}
+	.phone_bottom {
+		padding-left: 0;
+		display: block;
+		margin-top: 5px;
+	}
+	.navbar {
+    z-index: 10;
+    width: 100%;
+    position: fixed;
+    
+}
 
 }
 @media only screen and (max-width : 550px) {
@@ -115,7 +129,15 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-
+.carousel-inner .h1 {
+    font-size: 27px;
+}
+.carousel .item {
+    height: 420px;
+  }
+  .carousel-caption {
+    bottom: 4%;
+}
 }
 
 /* Extra Small Devices, Phones */

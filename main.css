@@ -77,10 +77,10 @@ a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, 
 }
 .slogan_bottom {
 	border-top: #d6d6d6 2px solid;
-	padding-top: 30px;
+	padding-top: 20px;
 }
 .main_footer{
-	padding: 15px 30px;
+	padding: 5px 30px;
 }
 .slogan {
 	text-align: center;
@@ -91,4 +91,10 @@ a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, 
 }
 .phone_bottom{
 	padding-left: 25px;
+}
+.carousel-inner .h1 {
+	font-size: 30px;
+}
+.carousel-caption p{
+	font-size: 18px;
 }
