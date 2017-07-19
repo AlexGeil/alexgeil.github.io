@@ -88,10 +88,16 @@
 		margin-top: 5px;
 	}
 	.navbar {
-		z-index: 10;
+		z-index: 100;
 		width: 100%;
 		position: fixed;
-		
+	}
+	.carousel {
+		padding-top: 50px;
+	}
+	.slide_img {
+		position: relative;
+		height: inherit;
 	}
 
 }
@@ -119,10 +125,13 @@
 		font-size: 25px;
 	}
 	.carousel .item {
-		height: 420px;
+		height: 300px;
 	}
 	.carousel-caption {
-		bottom: 4%;
+		bottom: 5%;
+	}
+	.inviz480{
+		display: none;
 	}
 
 }
