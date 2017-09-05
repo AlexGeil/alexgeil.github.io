@@ -106,6 +106,10 @@ a.list-group-item:active {
 	color: #fff;
 	background-color: rgba(103,194,239,1);
 }
+.navbar-default .navbar-nav .navactive {
+	color: #fff;
+	background-color: rgba(103,194,239,1);
+}
 .rightimg img{
 	position: relative;
 	width: 100%;
