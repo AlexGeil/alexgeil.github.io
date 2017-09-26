@@ -116,7 +116,10 @@ a.list-group-item:active {
 	height: 100%;
 }
 .breadcrumb {
-    padding: 0;
-    background-color: transparent;
+	padding: 0;
+	background-color: transparent;
+}
+.sloganmax{
+	font-size: 1.1em;
 }
 
